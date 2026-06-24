@@ -1,8 +1,9 @@
-a = 5
-b = 10
+#while loop
+#finite loop==>
+i = 1 #iterator
 
-a, b = b, a
+while (i <= 10):
+    print("hello world")
+    i += 1
 
-print("a =",a)
-print("b =",b)
-
+print("after loop, count=",i)#11

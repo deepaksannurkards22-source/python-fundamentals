@@ -52,10 +52,14 @@ x = 10 + 3 * 2 ** 2
 print(x)# As because the precedence value the highest predence will get solved first that why>>>
 
 #6.Write a program to swap values of two numbers entered by the user.
+#Swaping any two nums given by a user 
 
+num1 = input("enter first num:")
+num2 = input("enter second num:")
 
+num1, num2 = num2, num1
 
-
+print("After swapping:",num1,num2)
 
 
 #7.Ask the user for a temperature in celsuis (string input).Convert it to float, then calucate and print temperature in Fahreneit.
